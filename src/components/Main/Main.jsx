@@ -6,7 +6,7 @@ import EditProfile from './components/Popup/components/EditProfile/EditProfile';
 import EditAvatar from './components/Popup/components/EditAvatar/EditAvatar';
 import Card from "./components/Card/Card";
 import RemoveCard from "./components/Popup/components/RemoveCard/RemoveCard"
-import CurrentUserContext from '../../context/CurrentUserContext.js';
+import CurrentUserContext from '../../contexts/CurrentUserContext.js';
 
 
 export default function Main(props){

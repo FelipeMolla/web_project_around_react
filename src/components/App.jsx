@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react'
 import Header from './Header/Header'
 import Main from './Main/Main'
 import Footer from './Footer/Footer'
-import CurrentUserContext from '../context/CurrentUserContext.js'
+import CurrentUserContext from '../contexts/CurrentUserContext.js'
 import api from '../utils/api.js'
 
 function App() {
