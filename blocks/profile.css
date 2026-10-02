@@ -72,7 +72,7 @@
 .profile__add-button {
   width: 150px;
   height: 50px;
-  background: transparent url("../images/add-icon.svg") center no-repeat;
+  background: transparent url("src/images/add-icon.svg") center no-repeat;
   background-size: 22px;
   border-radius: 2px;
   border: 2px solid #fff;
@@ -87,7 +87,7 @@
 .profile__edit-button {
   width: 24px;
   height: 24px;
-  background: transparent url("../images/edit-icon.svg") center no-repeat;
+  background: transparent url("src/images/edit-icon.svg") center no-repeat;
   background-size: 10px 10px;
   border: 1px solid #fff;
   grid-area: button;

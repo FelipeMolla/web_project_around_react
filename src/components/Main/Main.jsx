@@ -1,11 +1,10 @@
-import profileEditIcon from '../../../images/profile-edit-icon.svg';
+import profileEditIcon from '../../images/profile-edit-icon.svg';
 import { useContext} from "react";
 import Popup from './components/Popup/Popup';
 import NewCard from './components/Popup/components/NewCard/NewCard';
 import EditProfile from './components/Popup/components/EditProfile/EditProfile';
 import EditAvatar from './components/Popup/components/EditAvatar/EditAvatar';
 import Card from "./components/Card/Card";
-import RemoveCard from "./components/Popup/components/RemoveCard/RemoveCard"
 import CurrentUserContext from '../../contexts/CurrentUserContext.js';
 
 
@@ -15,7 +14,6 @@ export default function Main(props){
   const newCardPopup = {title: "Novo Cartão", children: <NewCard onNewCardSubmit={props.onNewCardSubmit}/>}
   const editProfilePopup = {title: "Editar Perfil", children: <EditProfile onUpdateUser={props.onUpdateUser} />}
   const editAvatarPopup = {title: "Editar Avatar", children: <EditAvatar onUpdateAvatar={props.onUpdateAvatar} />}
-  const removeCardPopup = {title: "Tem Certeza?", children: <RemoveCard cardId={props.cardId} onDeleteCard={props.onDeleteCard}/>}
   
     return(
     <main className="content">
